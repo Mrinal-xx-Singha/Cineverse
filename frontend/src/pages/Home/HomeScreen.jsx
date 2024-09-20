@@ -32,7 +32,7 @@ const HomeScreen = () => {
 
   return (
     <>
-      <div className="relative h-screen">
+      <div className="relative h-screen scrollbar-hide">
         <Navbar />
 
         {/* Img Optimization hack */}
