@@ -102,7 +102,7 @@ const WatchPage = () => {
   // No content state
   if (!content) {
     return (
-      <div className="bg-black text-white h-screen">
+      <div className="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white h-screen">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mx-auto px-4 py-8 h-full">
             <h2 className="text-2xl sm:text-5xl font-bold text-balance">
@@ -115,7 +115,7 @@ const WatchPage = () => {
   }
 
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="bg-gradient-to-br from-gray-900 via-black to-gray-800 min-h-screen text-white">
       <div className="container mx-auto px-4 py-8">
         <Navbar />
 

@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="py-6 md:px-8 bg-black text-white border-t border-gray-800">
+      <footer className="py-6 md:px-8 bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white border-t border-gray-800">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:h-10">
           <p className="text-center text-sm leading-relaxed md:text-left">
             Built by{" "}

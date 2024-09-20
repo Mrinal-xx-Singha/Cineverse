@@ -1,12 +1,16 @@
 import { Navigate, Route, Routes } from "react-router-dom";
+
+// Page Imports
 import HomePage from "./pages/Home/HomePage";
 import WatchPage from "./pages/WatchPage";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import SearchPage from "./pages/SearchPage";
 import HistoryPage from "./pages/HistoryPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 import Footer from "./components/Footer";
+
 import { Toaster } from "react-hot-toast";
 import { useAuthStore } from "./store/authUser";
 import { useEffect } from "react";
@@ -52,6 +56,7 @@ function App() {
           path="/history"
           element={user ? <HistoryPage /> : <Navigate to={"/login"} />}
         />
+        <Route  path="*" element={<NotFoundPage />}/>
       </Routes>
       <Footer />
       <Toaster />
