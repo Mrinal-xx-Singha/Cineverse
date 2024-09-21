@@ -116,8 +116,9 @@ const WatchPage = () => {
 
   return (
     <div className="bg-gradient-to-br from-gray-900 via-black to-gray-800 min-h-screen text-white">
+      <Navbar />
       <div className="container mx-auto px-4 py-8">
-        <Navbar />
+        
 
         {/* Showing trailers */}
         {trailers.length > 0 ? (
