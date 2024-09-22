@@ -1,6 +1,7 @@
 
 # CINEVERSE 🎬 -Explore the Magic of Movies
-## LINK- [CINEVERSE](https://cineverse-rgh2.onrender.com/)
+## LINK 
+[CINEVERSE](https://cineverse-rgh2.onrender.com/)
 
 Cineverse is a dynamic and immersive movie series database where users can dive into the world of films. With its minimalist UI/UX and modern card design, Cineverse offers an intuitive platform for movie enthusiasts to explore trending, popular, and upcoming films, search for movies and actors, and much more. Built with the robust MERN stack, Cineverse ensures seamless performance, real-time updates, and a secure user experience with JWT authentication.
 
