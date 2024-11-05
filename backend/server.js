@@ -23,7 +23,7 @@ app.use(cookieParser())
 
 const PORT = ENV_VARS.PORT;
 
-// step2 Deploymnet
+// step2 Deployment
 const __dirname = path.resolve()
 
 

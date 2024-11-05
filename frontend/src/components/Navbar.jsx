@@ -76,7 +76,7 @@ const Navbar = () => {
 
 {/* Mobile menu */}
       {isMobileMenuOpen && (
-        <div className="sm:hidden px-4 py-2 bg-black  text-white absolute top-20 left-0 w-full transition-all duration-300 ease-in-out flex flex-col">
+        <div className="sm:hidden px-4 py-2 bg-black  text-white absolute top-20 left-0 w-full transition-all duration-300 ease-in-out flex flex-col gap-3">
           <NavLink to="/" onClick={() => setContentType("movie")}>Movies</NavLink>
           <NavLink to="/" onClick={() => setContentType("tv")}>TV Shows</NavLink>
           <NavLink to="/history">Search History</NavLink>
